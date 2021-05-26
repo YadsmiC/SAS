@@ -12,7 +12,7 @@ DBMS=XLSX
 datafile= "Path to DATA.xlsx" replace;
 run;
 
-/*show first 50 observcations of Data
+/*show first 50 observcations of Data*/
 proc print data= customer(obs=50);
 run;
 
