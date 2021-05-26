@@ -24,7 +24,7 @@ run;
 /*The SAS code that follows is for conducting univariate analysis*/
 proc univariate data = customer;
 
-proc univariate data = proc univariate data = customer;;
+proc univariate data = proc univariate data = customer;
 VAR age;
 run;
 
